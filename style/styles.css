@@ -4,4 +4,8 @@ body {
 }
 #contentDiv {
   background-color: rgb(40, 40, 40);
+  padding: 30px;
+}
+.bookName {
+  font-style: italic;
 }

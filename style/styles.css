@@ -1,7 +1,6 @@
 body {
   background-repeat: no-repeat;
   color: rgb(220, 220, 220);
-  font-family: sans-serif;
 }
 #contentDiv {
   background-color: rgb(40, 40, 40);
@@ -15,34 +14,6 @@ body {
 .emphasize {
   font-style: italic;
   text-decoration: underline;
-}
-@font-face {
-  font-family: brlnsr;
-  src: url(font/brlnsr.woff2);
-}
-@font-face {
-  font-family: gil;
-  src: url(font/gil.woff2);
-}
-@font-face {
-  font-family: gilb;
-  src: url(font/gilb.woff2);
-  font-weight: bold;
-}
-@font-face {
-  font-family: gilbi;
-  src: url(font/gilbi.woff2);
-  font-weight: bold;
-  font-style: italic;
-}
-@font-face {
-  font-family: gili;
-  src: url(font/gili.woff2);
-  font-style: italic;
-}
-@font-face {
-  font-family: signika-bold;
-  src: url(font/signika-bold.woff2);
 }
 img {
   max-width: 100%;

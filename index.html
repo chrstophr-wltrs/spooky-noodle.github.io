@@ -4,8 +4,43 @@
     <title>About Chris</title>
     <link rel="stylesheet" href="style/styles.css" />
     <style>
+      @font-face {
+        font-family: brlnsr;
+        src: url(font/brlnsr.woff2);
+      }
+      @font-face {
+        font-family: gil;
+        src: url(font/gil.woff2);
+      }
+      @font-face {
+        font-family: gil;
+        src: url(font/gilb.woff2);
+        font-weight: bold;
+      }
+      @font-face {
+        font-family: gil;
+        src: url(font/gili.woff2);
+        font-style: italic;
+      }
+      @font-face {
+        font-family: gil;
+        src: url(font/gilbi.woff2);
+        font-weight: bold;
+        font-style: italic;
+      }
+      @font-face {
+        font-family: signika-bold;
+        src: url(font/signika-bold.woff2);
+      }
       body {
         background-image: url(img/lokiBG.png);
+        font-family: gil;
+      }
+      h1 {
+        font-family: brlnsr;
+      }
+      h2 {
+        font-family: signika-bold;
       }
     </style>
   </head>
@@ -14,6 +49,7 @@
       <h1>Chris Walters</h1>
       <figure>
         <img
+          id="loki1"
           src="img/loki3.jpg"
           alt="Cat with its feet sticking out of a basket"
         />
@@ -22,7 +58,7 @@
         </figcaption>
       </figure>
       <figure style="float: right">
-        <img alt="Cat stuck in a plastic bag" src="img/loki2.jpg" />
+        <img alt="Cat stuck in a plastic bag" src="img/loki2.jpg" id="loki2" />
         <figcaption>What a cute cat!</figcaption>
       </figure>
       <h2>Personal Info:</h2>
@@ -41,23 +77,35 @@
       <ol>
         <li>
           <span class="bookName">Johannes Cabal, the Necromancer</span> by
-          <a>Jonathan L. Howard</a>
+          <a href="http://www.jonathanlhoward.com/" target="_blank"
+            >Jonathan L. Howard</a
+          >
         </li>
         <li>
           <span class="bookName">Necromancer Nine</span> by
-          <a>Sheri S. Tepper</a>
+          <a href="http://www.sheri-s-tepper.com/" target="_blank"
+            >Sheri S. Tepper</a
+          >
         </li>
         <li>
           <span class="bookName">Maus: A Survivor's Tale</span> by
-          <a>Art Spiegelman</a>
+          <a
+            href="https://www.britannica.com/biography/Art-Spiegelman"
+            target="_blank"
+            >Art Spiegelman</a
+          >
         </li>
         <li>
           <span class="bookName">The Wee Free Men</span> by
-          <a>Sir Terry Pratchett</a>
+          <a href="https://www.terrypratchettbooks.com/" target="_blank"
+            >Sir Terry Pratchett</a
+          >
         </li>
         <li>
           <span class="bookName">At the Mountains of Madness</span> by
-          <a>H. P. Lovecraft</a>
+          <a href="https://www.hplovecraft.com/" target="_blank"
+            >H. P. Lovecraft</a
+          >
         </li>
       </ol>
       <h2>A Haiku</h2>

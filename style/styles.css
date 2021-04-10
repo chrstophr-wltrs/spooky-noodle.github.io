@@ -16,18 +16,55 @@ body {
   font-style: italic;
   text-decoration: underline;
 }
-
+@font-face {
+  font-family: brlnsr;
+  src: url(font/brlnsr.woff2);
+}
+@font-face {
+  font-family: gil;
+  src: url(font/gil.woff2);
+}
+@font-face {
+  font-family: gilb;
+  src: url(font/gilb.woff2);
+}
+@font-face {
+  font-family: gilbi;
+  src: url(font/gilbi.woff2);
+}
+@font-face {
+  font-family: gili;
+  src: url(font/gili.woff2);
+}
+@font-face {
+  font-family: signika-bold;
+  src: url(font/signika-bold.woff2);
+}
+img {
+  max-width: 100%;
+}
+a {
+  color: #a6e7dd;
+}
+a:active {
+  color: #e7a6e0;
+}
+a:visited {
+  color: #b4e7a6;
+}
+caption {
+  text-align: left;
+}
 table,
 th,
 td {
   border: 1px solid rgb(200, 200, 200);
 }
-
 th,
 td {
   padding: 3px;
 }
-
 table {
-  border-spacing: 3;
+  border-spacing: 3px;
+  margin: 3px;
 }

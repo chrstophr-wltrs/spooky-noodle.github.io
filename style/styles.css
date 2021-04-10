@@ -1,6 +1,7 @@
 body {
   background-repeat: no-repeat;
   color: rgb(220, 220, 220);
+  font-family: sans-serif;
 }
 #contentDiv {
   background-color: rgb(40, 40, 40);
@@ -8,4 +9,8 @@ body {
 }
 .bookName {
   font-style: italic;
+}
+.emphasize {
+  font-style: italic;
+  text-decoration: underline;
 }

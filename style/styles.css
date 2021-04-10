@@ -1,5 +1,8 @@
 body {
   background-repeat: no-repeat;
+  min-height: 500px;
+  background-attachment: fixed;
+  background-size: cover;
   color: rgb(220, 220, 220);
 }
 #contentDiv {

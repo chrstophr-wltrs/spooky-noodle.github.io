@@ -27,14 +27,18 @@ body {
 @font-face {
   font-family: gilb;
   src: url(font/gilb.woff2);
+  font-weight: bold;
 }
 @font-face {
   font-family: gilbi;
   src: url(font/gilbi.woff2);
+  font-weight: bold;
+  font-style: italic;
 }
 @font-face {
   font-family: gili;
   src: url(font/gili.woff2);
+  font-style: italic;
 }
 @font-face {
   font-family: signika-bold;
